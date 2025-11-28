@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "DM Sans", sans-serif;
+}
+
+img,
+button,
+iframe,
+a {
+  user-select: none;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.myShadow {
+  box-shadow: rgba(100, 100, 111, 0.082) 0px 7px 29px 0px;
+}
+
+input:user-invalid {
+  border: 1.5px solid rgba(255, 0, 0, 0.416);
+}
