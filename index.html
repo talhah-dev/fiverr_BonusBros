@@ -45,7 +45,7 @@
 
 
 
-<body class="overflow-x-hidden bg-slate-50 text-slate-900">
+<body class="overflow-x-hidden text-slate-900">
 
     <!-- Navbar -->
     <header id="top" class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
@@ -65,7 +65,7 @@
                 <li><a href="#casinos" class="hover:text-blue-600 transition-colors">Casinos</a></li>
                 <li><a href="#tipps" class="hover:text-blue-600 transition-colors">Tipps</a></li>
                 <li><a href="#about" class="hover:text-blue-600 transition-colors">Über mich</a></li>
-                <li><a href="#impressum" class="hover:text-blue-600 transition-colors">Impressum</a></li>
+
             </ul>
 
             <button id="menu-toggle"
@@ -83,7 +83,6 @@
                 <li><a href="#casinos" class="block py-1 hover:text-blue-600">Casinos</a></li>
                 <li><a href="#tipps" class="block py-1 hover:text-blue-600">Tipps</a></li>
                 <li><a href="#about" class="block py-1 hover:text-blue-600">Über mich</a></li>
-                <li><a href="#impressum" class="block py-1 hover:text-blue-600">Impressum</a></li>
             </ul>
         </div>
     </header>
@@ -161,20 +160,16 @@
                 </div>
             </div>
 
-            <div class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                <!-- CARD 1 -->
                 <article
                     class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
-                    data-aos="fade-up" data-aos-delay="250">
-
+                    data-aos="fade-up">
                     <div class="flex items-center justify-between gap-4 mb-4">
                         <div class="flex items-center gap-3">
-                            <div class="h-10 w-10 rounded-xl bg-slate-100" data-aos="zoom-in" data-aos-delay="300">
-                            </div>
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
                             <div>
-                                <p class="text-[11px] font-semibold tracking-wide uppercase text-amber-500">
-                                    Non-Sticky
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-amber-500">Non-Sticky
                                 </p>
                                 <h3 class="text-lg md:text-xl font-semibold">Spinanga</h3>
                             </div>
@@ -184,16 +179,14 @@
                             <p class="text-lg md:text-xl font-bold text-slate-900">500&nbsp;€</p>
                         </div>
                     </div>
-
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs md:text-sm mb-4" data-aos="fade-up"
-                        data-aos-delay="320">
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
                         <div class="rounded-2xl bg-slate-50 px-3 py-2">
                             <p class="text-[11px] text-slate-500">Bonus</p>
                             <p class="font-semibold text-amber-600">200&nbsp;%</p>
                         </div>
                         <div class="rounded-2xl bg-slate-50 px-3 py-2">
-                            <p class="text-[11px] text-slate-500">Max. Einsatz</p>
-                            <p class="font-semibold">5&nbsp;€</p>
+                            <p class="text-[11px] text-slate-500">Freespins</p>
+                            <p class="font-semibold">100</p>
                         </div>
                         <div class="rounded-2xl bg-slate-50 px-3 py-2">
                             <p class="text-[11px] text-slate-500">Wager</p>
@@ -204,41 +197,29 @@
                             <p class="font-semibold">Ja</p>
                         </div>
                     </div>
-
-                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4" data-aos="fade-up"
-                        data-aos-delay="340">
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
                         <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Exklusiver Bonus</span>
                         <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Viele Spiele</span>
-                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Diverse Angebote</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Schnelle</span>
                     </div>
-
-                    <div class="mb-4 text-xs md:text-sm" data-aos="fade-up" data-aos-delay="360">
-                        <p class="text-amber-700 font-medium">Promocode: Kein Code benötigt</p>
-                        <p class="text-[11px] text-slate-500 mt-1">
-                            Verifiziert • Bedingungen und AGB bitte direkt beim Anbieter prüfen.
-                        </p>
-                    </div>
-
+                    <p class="mb-3 text-[11px] text-slate-500">
+                        Verifiziert • Bedingungen und AGB bitte direkt beim Anbieter prüfen.
+                    </p>
                     <button
-                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-[#f8b003] to-[#f68704] hover:opacity-80 transition-colors"
-                        data-aos="fade-up" data-aos-delay="380">
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-[#f8b003] to-[#f68704] hover:opacity-80 transition-colors">
                         Jetzt spielen
                     </button>
                 </article>
 
-                <!-- CARD 2 -->
                 <article
                     class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
-                    data-aos="fade-up" data-aos-delay="400">
-
+                    data-aos="fade-up">
                     <div class="flex items-center justify-between gap-4 mb-4">
                         <div class="flex items-center gap-3">
-                            <div class="h-10 w-10 rounded-xl bg-slate-100" data-aos="zoom-in" data-aos-delay="450">
-                            </div>
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
                             <div>
-                                <p class="text-[11px] font-semibold tracking-wide uppercase text-emerald-500">
-                                    Exklusiver Deal
-                                </p>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-emerald-500">Exklusiver
+                                    Deal</p>
                                 <h3 class="text-lg md:text-xl font-semibold">Vega Zone</h3>
                             </div>
                         </div>
@@ -247,9 +228,7 @@
                             <p class="text-lg md:text-xl font-bold text-slate-900">500&nbsp;€</p>
                         </div>
                     </div>
-
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs md:text-sm mb-4" data-aos="fade-up"
-                        data-aos-delay="470">
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
                         <div class="rounded-2xl bg-slate-50 px-3 py-2">
                             <p class="text-[11px] text-slate-500">Bonus</p>
                             <p class="font-semibold">300&nbsp;%</p>
@@ -267,22 +246,595 @@
                             <p class="font-semibold">45x</p>
                         </div>
                     </div>
-
-                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4" data-aos="fade-up"
-                        data-aos-delay="500">
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
                         <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Max Bet: 5&nbsp;€</span>
                         <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Viele Slots</span>
                         <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Gute Quoten</span>
                     </div>
-
-                    <p class="text-[11px] text-slate-500 mb-4" data-aos="fade-up" data-aos-delay="520">
+                    <p class="text-[11px] text-slate-500 mb-4">
                         Bedingungen können sich ändern. Bitte alle Details direkt bei Vega Zone nachlesen.
                     </p>
-
                     <button
-                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-[#a80ca3] to-[#a80ca3] hover:opacity-80 transition-colors"
-                        data-aos="fade-up" data-aos-delay="540">
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-[#a80ca3] to-[#a80ca3] hover:opacity-80 transition-colors">
                         Exklusiven Bonus sichern
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-blue-500">Cashback</p>
+                                <h3 class="text-lg md:text-xl font-semibold">Lucky Tiger</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">300&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">150&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Cashback</p>
+                            <p class="font-semibold">10&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">30x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Nein</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Cashback-Aktion</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Slots & Tischspiele</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Ideal für alle, die gerne mit Bonus und zusätzlichem Cashback spielen.
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-blue-600 to-sky-500 hover:opacity-80 transition-colors">
+                        Bonus holen
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-rose-500">Highroller
+                                </p>
+                                <h3 class="text-lg md:text-xl font-semibold">Royal Ace</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">1.000&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">100&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">VIP-Programm</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">40x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Zahlungen</p>
+                            <p class="font-semibold">Schnell</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Für Highroller</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">VIP-Boni</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Geeignet für Spieler mit höheren Einsätzen und Loyalitätsvorteilen.
+                        <span class="md:block hidden">&nbsp;</span>
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-rose-500 to-red-500 hover:opacity-80 transition-colors">
+                        Royal Bonus sichern
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-indigo-500">Live-Casino
+                                </p>
+                                <h3 class="text-lg md:text-xl font-semibold">NeonSpin</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">400&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">100&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Live Spiele</p>
+                            <p class="font-semibold">Ja, viele</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Freespins</p>
+                            <p class="font-semibold">50</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Nein</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Live Roulette</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Blackjack</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Fokus auf Live-Casino mit modernen Tischen und professionellen Dealern.
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-indigo-500 to-sky-500 hover:opacity-80 transition-colors">
+                        Jetzt Live spielen
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-emerald-500">
+                                    Sportwetten</p>
+                                <h3 class="text-lg md:text-xl font-semibold">BetArena</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">200&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Willkommensbonus</p>
+                            <p class="font-semibold">100&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Free Bet</p>
+                            <p class="font-semibold">25&nbsp;€</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Quoten</p>
+                            <p class="font-semibold">Stark</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Live-Wetten</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Fußball</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Bundesliga</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Live-Wetten</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Ideal für Sportfans, die gerne auf Spiele und Live-Events setzen.
+                        <span class="md:block hidden">&nbsp;</span>
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-emerald-500 to-lime-500 hover:opacity-80 transition-colors">
+                        Sportbonus sichern
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-amber-500">Multi-Bonus
+                                </p>
+                                <h3 class="text-lg md:text-xl font-semibold">MegaWin</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">800&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">3x Einzahlungsbonus</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Freespins</p>
+                            <p class="font-semibold">150</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">35x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Mehrstufiger Bonus</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Viele Aktionen</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Perfekt, wenn du deine Einzahlungen auf mehrere Tage verteilen möchtest.
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-[#f8b003] to-[#f68704] hover:opacity-80 transition-colors">
+                        Angebot ansehen
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-sky-500">Einfacher
+                                    Start</p>
+                                <h3 class="text-lg md:text-xl font-semibold">StarPlay</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">150&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">100&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Mindesteinzahlung</p>
+                            <p class="font-semibold">10&nbsp;€</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">25x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Nein</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Ideal für Einsteiger</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Kleine Einsätze</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Guter Einstieg für neue Spieler mit niedriger Mindesteinzahlung.
+                        <span class="md:block hidden">&nbsp;</span>
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-blue-600 to-sky-500 hover:opacity-80 transition-colors">
+                        Jetzt registrieren
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-amber-500">Jackpot</p>
+                                <h3 class="text-lg md:text-xl font-semibold">JackpotCity</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">600&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Jackpots</p>
+                            <p class="font-semibold">Progressive</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Freespins</p>
+                            <p class="font-semibold">75</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">35x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Nein</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Jackpot Slots</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Hohe Gewinne möglich</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Für alle, die gerne auf große Jackpot-Gewinne hoffen.
+                        <span class="md:block hidden">&nbsp;</span>
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-[#f8b003] to-[#f68704] hover:opacity-80 transition-colors">
+                        Jackpot spielen
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-emerald-500">Schnelle
+                                    Auszahlungen</p>
+                                <h3 class="text-lg md:text-xl font-semibold">FastPay Casino</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">300&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Auszahlungen</p>
+                            <p class="font-semibold">Sehr schnell</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">100&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">30x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Nein</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Blitz-Auszahlungen</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Viele Zahlungsmethoden</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Ideal, wenn dir schnelle Auszahlungen besonders wichtig sind.
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-emerald-500 to-lime-500 hover:opacity-80 transition-colors">
+                        Jetzt testen
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-purple-500">Krypto</p>
+                                <h3 class="text-lg md:text-xl font-semibold">CryptoSpin</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">700&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Zahlung</p>
+                            <p class="font-semibold">Bitcoin, USDT</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">200&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">35x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Krypto-Casino</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Anonyme Einzahlungen</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Für Spieler, die bevorzugt mit Kryptowährungen zahlen möchten.
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-purple-500 to-indigo-500 hover:opacity-80 transition-colors">
+                        Krypto-Bonus sichern
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-amber-500">Slots Fokus
+                                </p>
+                                <h3 class="text-lg md:text-xl font-semibold">SlotKing</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">400&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Slots</p>
+                            <p class="font-semibold">2.000+</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Freespins</p>
+                            <p class="font-semibold">120</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">30x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Nein</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Riesige Slot-Auswahl</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Bonus für Slots</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Ideal, wenn du hauptsächlich Automatenspiele zocken möchtest.
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-[#f8b003] to-[#f68704] hover:opacity-80 transition-colors">
+                        Jetzt Slots testen
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-emerald-500">
+                                    Treueprogramm</p>
+                                <h3 class="text-lg md:text-xl font-semibold">LoyalBet</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">350&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Treuepunkte</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Bonus</p>
+                            <p class="font-semibold">100&nbsp;%</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">30x</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Belohnungen für Spieler</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">VIP-Stufen</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Gut für regelmäßige Spieler, die von Treueaktionen profitieren wollen.
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-emerald-500 to-lime-500 hover:opacity-80 transition-colors">
+                        Treuebonus sichern
+                    </button>
+                </article>
+
+                <article
+                    class="rounded-3xl bg-white text-slate-900 border border-slate-200 p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up">
+                    <div class="flex items-center justify-between gap-4 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="h-10 w-10 rounded-xl bg-slate-100"></div>
+                            <div>
+                                <p class="text-[11px] font-semibold tracking-wide uppercase text-sky-500">Kombiniert</p>
+                                <h3 class="text-lg md:text-xl font-semibold">SunVegas</h3>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-[11px] text-slate-500">Max. Bonus</p>
+                            <p class="text-lg md:text-xl font-bold text-slate-900">450&nbsp;€</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-xs md:text-sm mb-4">
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Casino</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Sportwetten</p>
+                            <p class="font-semibold">Ja</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Freespins</p>
+                            <p class="font-semibold">80</p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 px-3 py-2">
+                            <p class="text-[11px] text-slate-500">Wager</p>
+                            <p class="font-semibold">35x</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-[11px] md:text-xs mb-4">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Casino & Sportwetten</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700">Gute Mischung</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mb-4">
+                        Für alle, die gerne zwischen Slots und Sportwetten wechseln.
+                        <span class="md:block hidden">&nbsp;</span>
+                    </p>
+                    <button
+                        class="mt-2 inline-flex w-full items-center justify-center rounded-lg px-4 py-3.5 text-sm md:text-base font-semibold text-white bg-gradient-to-r from-blue-600 to-sky-500 hover:opacity-80 transition-colors">
+                        Jetzt Angebot prüfen
                     </button>
                 </article>
 
@@ -294,6 +846,7 @@
 
         </div>
     </section>
+
 
 
 
@@ -318,7 +871,7 @@
 
                 <!-- Box 1 -->
                 <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-aos="fade-up"
-                    data-aos-delay="220">
+                    >
                     <h3 class="font-semibold text-base md:text-lg mb-2">
                         1. Bonusbedingungen prüfen
                     </h3>
@@ -334,7 +887,7 @@
 
                 <!-- Box 2 -->
                 <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-aos="fade-up"
-                    data-aos-delay="260">
+                    data-aos-delay="200">
                     <h3 class="font-semibold text-base md:text-lg mb-2">
                         2. Lizenz & Sicherheit
                     </h3>
@@ -350,7 +903,7 @@
 
                 <!-- Box 3 -->
                 <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" data-aos="fade-up"
-                    data-aos-delay="300">
+                    data-aos-delay="400">
                     <h3 class="font-semibold text-base md:text-lg mb-2">
                         3. Sportwetten oder nur Casino?
                     </h3>
@@ -508,6 +1061,13 @@
                 </div>
 
             </div>
+            <div class="flex justify-center md:mt-10 mt-6 items-center gap-3" data-aos="fade-up">
+                <a href="#casinos"
+                    class="inline-flex items-center justify-center px-5 py-3.5 rounded-lg text-sm font-semibold bg-[#f8af03] md:w-auto w-full text-white hover:opacity-80 transition-colors">
+                    Mehr lesen
+                </a>
+
+            </div>
         </div>
     </section>
 
@@ -531,7 +1091,7 @@
                     <a href="#casinos" class="text-slate-600 hover:text-slate-900">Casinos</a>
                     <a href="#tipps" class="text-slate-600 hover:text-slate-900">Tipps</a>
                     <a href="#about" class="text-slate-600 hover:text-slate-900">Über mich</a>
-                    <a href="#impressum" class="text-slate-600 hover:text-slate-900">Impressum</a>
+                    <a href="/impressum.html" class="text-slate-600 hover:text-slate-900">Impressum</a>
                 </div>
 
                 <!-- Right -->
