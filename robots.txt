@@ -1,4 +1,4 @@
-# robots.txt for https://YOUR-DOMAIN.tld/
+# robots.txt for http://bonusbros777.com/
 
 User-agent: *
 # Allow indexing of all public pages
@@ -32,4 +32,4 @@ Allow: /static/
 Disallow: /*.php$
 Disallow: /*.inc$
 
-Sitemap: https://YOUR-DOMAIN.tld/sitemap.xml
+Sitemap: http://bonusbros777.com/sitemap.xml
